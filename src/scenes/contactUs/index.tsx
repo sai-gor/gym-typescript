@@ -1,9 +1,8 @@
 import { useForm } from "react-hook-form";
 import { SelectedPage } from "@/shared/types";
 import { motion } from "framer-motion";
-import ContactusPageGraphic from "@/assets/ContactusPageGraphic.png";
+import ContactUsPageGraphic from "@/assets/ContactUsPageGraphic.png";
 import HText from "@/shared/HText";
-import { triggerAsyncId } from "async_hooks";
 
 type Props = {
   setSelectedPage: (value: SelectedPage) => void;
@@ -149,7 +148,7 @@ const ContactUs = ({ setSelectedPage }: Props) => {
               <img
                 className="w-full"
                 alt="contact-us-page-graphic"
-                src={ContactusPageGraphic}
+                src={ContactUsPageGraphic}
               />
             </div>
           </motion.div>
